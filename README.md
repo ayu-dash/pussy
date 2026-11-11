@@ -2,6 +2,8 @@
 
 **Turn any software project into a clean, structured context document for LLMs.**
 
+Repository: <https://github.com/ayu-dash/pussy>
+
 Pussy scans a repository, detects its technologies, parses dependency manifests,
 reads Git metadata, and renders everything as Markdown or JSON — with strict
 security rules that keep secrets and binary files out of the output.
@@ -50,7 +52,7 @@ package and does not need to be installed.
 Clone the repository and install the runtime dependencies:
 
 ```bash
-git clone <repository-url> pussy
+git clone https://github.com/ayu-dash/pussy.git pussy
 cd pussy
 
 python -m venv .venv
