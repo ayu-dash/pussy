@@ -1,4 +1,4 @@
-# Pussy CLI
+# Pussy
 
 **Turn any software project into a clean, structured context document for LLMs.**
 
