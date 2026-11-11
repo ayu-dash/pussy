@@ -1,0 +1,4 @@
+# Repository-specific ignore rules for scanning Pussy CLI itself.
+.venv/
+pussy-context-*.md
+pussy-context-*.json
