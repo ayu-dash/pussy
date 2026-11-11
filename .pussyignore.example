@@ -1,0 +1,34 @@
+# Example Pussy ignore rules.
+# Copy this file to .pussyignore and adjust it for your project.
+#
+# Syntax follows .gitignore: one glob per line, "#" comments, trailing "/"
+# for directories, and "!" to re-include a path. The last matching rule wins.
+
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+.venv/
+__pycache__/
+target/
+.next/
+.nuxt/
+
+*.log
+*.min.js
+*.map
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Keep large local fixtures out of prompts:
+# test/fixtures/
