@@ -280,7 +280,6 @@ context building, formatting, clipboard behavior and the full CLI.
 - [Usage guide](docs/usage.md)
 - [Configuration reference](docs/configuration.md)
 - [Architecture](docs/architecture.md)
-- [Legacy `pus` prototype (archived)](docs/pus-legacy.md)
 
 ## License
 
